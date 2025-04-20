@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -6,8 +7,17 @@ body {
 
 .container {
     background-color: teal;
-    width: 90%;
+    width: 100%;
     margin: auto;
+}
+
+.greeting p {
+    margin-top: 0;;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 .gallery-header {
@@ -16,9 +26,10 @@ body {
 }
 
 .gallery-header h2 {
-    font-size: .875rem;
-    font-family: 'Inter', sans-serif;
-    color: #7f7f90;
+    font-size: 3.125rem;
+    font-family: 'Amatic SC',sans-serif;    
+    color: #CE1212;
+    margin-bottom: 0;
 }
 
 .gallery-header p {
