@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: teal;
+    width: 90%;
+    margin: auto;
+}
+
+.gallery-header {
+    background-color: tomato;
+    text-align: center;
+}
+
+.gallery-header h2 {
+    font-size: .875rem;
+    font-family: 'Inter', sans-serif;
+    color: #7f7f90;
+}
+
+.gallery-header p {
+    margin: 0;
+    font-size: 3.125rem;
+    font-family: 'Amatic SC',sans-serif;    
+    color: #212529;
+}
+
+.gallery-header span {
+    font-size: 3.125rem;
+    font-family: 'Amatic SC',sans-serif;    
+    color: #CE1212;
+}
+
+.gallery-images{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(15.625rem , 37.5rem);
+    column-gap: .9375rem;
+    row-gap: 1.875rem;
+}
+
+.gallery-images img{
+    width: 100%;
+}
+
+.gallery-images img{
+    border: .125rem solid white;
+}
+
+#meal-5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#meal-6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
+        
